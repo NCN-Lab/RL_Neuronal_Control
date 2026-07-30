@@ -16,7 +16,7 @@ Preprint: https://doi.org/10.64898/2026.07.13.738298
 
 ***a)*** A biophysically detailed computational model to recreate the activity of primary hippocampal neuronal networks, developed in NEURON simulation environment.
 This model allows RL agents for neuronal activity control to be pre-trained in silico.
-Code is available in folder ***NEURON_SimEnv_Python***. You need NEURON simulation environment installed ( https://www.neuronsimulator.org/ ) to run this code.
+Code is available in folder ***NEURON_SimEnv_Python***. You need NEURON simulation environment installed ( https://www.neuronsimulator.org/ ) to run this code. Example code is provided (see specific Readme.md file), with execution time of a few minutes.
 
 ***b)*** A C# application for real-time control of the MCS-MultiChannel Systems MEA2100 electrophysiology hardware
 The MCS-MultiChannel Systems MEA2100 is one of the most widely used in vitro MEA electrophysiology hardware. The application we developed allows real-time closed-loop control of the system. Namely, it provides a versatile environment where neuronal activity is continuously monitored and stimulation parameters are adapted accordingly. Its usefulness goes well beyond the context of this manuscript.
