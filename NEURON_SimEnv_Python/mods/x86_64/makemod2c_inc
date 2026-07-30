@@ -1,0 +1,80 @@
+./AMPA_DynSyn.c: ../AMPA_DynSyn.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "..";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "AMPA_DynSyn.mod" -o "/home/ncn-neuron/Documents/GitHub/neuromodulation-RL/mods/x86_64")
+
+./AMPA_DynSyn.o: ./AMPA_DynSyn.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I".." $(INCLUDES) -fPIC -c $< -o $@
+
+./CaIntraCellDyn.c: ../CaIntraCellDyn.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "..";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "CaIntraCellDyn.mod" -o "/home/ncn-neuron/Documents/GitHub/neuromodulation-RL/mods/x86_64")
+
+./CaIntraCellDyn.o: ./CaIntraCellDyn.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I".." $(INCLUDES) -fPIC -c $< -o $@
+
+./exp2nmdar.c: ../exp2nmdar.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "..";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "exp2nmdar.mod" -o "/home/ncn-neuron/Documents/GitHub/neuromodulation-RL/mods/x86_64")
+
+./exp2nmdar.o: ./exp2nmdar.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I".." $(INCLUDES) -fPIC -c $< -o $@
+
+./GABAa_DynSyn.c: ../GABAa_DynSyn.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "..";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GABAa_DynSyn.mod" -o "/home/ncn-neuron/Documents/GitHub/neuromodulation-RL/mods/x86_64")
+
+./GABAa_DynSyn.o: ./GABAa_DynSyn.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I".." $(INCLUDES) -fPIC -c $< -o $@
+
+./GABAb_DynSyn.c: ../GABAb_DynSyn.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "..";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GABAb_DynSyn.mod" -o "/home/ncn-neuron/Documents/GitHub/neuromodulation-RL/mods/x86_64")
+
+./GABAb_DynSyn.o: ./GABAb_DynSyn.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I".." $(INCLUDES) -fPIC -c $< -o $@
+
+./hh2.c: ../hh2.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "..";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "hh2.mod" -o "/home/ncn-neuron/Documents/GitHub/neuromodulation-RL/mods/x86_64")
+
+./hh2.o: ./hh2.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I".." $(INCLUDES) -fPIC -c $< -o $@
+
+./iCaAN.c: ../iCaAN.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "..";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "iCaAN.mod" -o "/home/ncn-neuron/Documents/GitHub/neuromodulation-RL/mods/x86_64")
+
+./iCaAN.o: ./iCaAN.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I".." $(INCLUDES) -fPIC -c $< -o $@
+
+./iCaL.c: ../iCaL.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "..";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "iCaL.mod" -o "/home/ncn-neuron/Documents/GitHub/neuromodulation-RL/mods/x86_64")
+
+./iCaL.o: ./iCaL.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I".." $(INCLUDES) -fPIC -c $< -o $@
+
+./iKCa.c: ../iKCa.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "..";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "iKCa.mod" -o "/home/ncn-neuron/Documents/GitHub/neuromodulation-RL/mods/x86_64")
+
+./iKCa.o: ./iKCa.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I".." $(INCLUDES) -fPIC -c $< -o $@
+
+./NMDA_DynSyn.c: ../NMDA_DynSyn.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "..";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "NMDA_DynSyn.mod" -o "/home/ncn-neuron/Documents/GitHub/neuromodulation-RL/mods/x86_64")
+
+./NMDA_DynSyn.o: ./NMDA_DynSyn.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I".." $(INCLUDES) -fPIC -c $< -o $@
+

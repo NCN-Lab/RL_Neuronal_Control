@@ -1,0 +1,18 @@
+# Core Simulation & Neural Network Modeling
+neuron==8.2.7
+torch==2.11.0
+
+# Scientific, Machine Learning & Numerical Computing
+numpy==2.4.2
+scipy==1.17.0
+pandas==3.0.0
+scikit-learn=1.9.0
+
+# Data Visualization & Analysis
+matplotlib==3.10.8
+seaborn==0.13.2
+statsmodels==0.14.6
+
+# Utilities & Data Processing
+psutil==7.0.0
+tqdm==4.67.3
