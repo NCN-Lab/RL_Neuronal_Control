@@ -6,7 +6,7 @@ This repository contains the code supporting the manuscript
 
 Eduardo Carvalho, José Mateus, Ricardo Pinto, Miguel Aroso, & Paulo Aguiar (*)
 
-(*) Correspondence to: pauloaguiar@i3s.up.pt
+(*) Correspondence to: eduardoc@i3s.up.pt, pauloaguiar@i3s.up.pt
 
 Preprint: https://doi.org/10.64898/2026.07.13.738298
 
