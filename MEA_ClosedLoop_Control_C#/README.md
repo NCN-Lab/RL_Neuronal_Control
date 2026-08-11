@@ -46,6 +46,7 @@ NCN_MEA_RL_Control/
 │   ├── TaskParameters.cs     # RL environment & hyperparameter definitions
 │   └── RL.csproj             # RL engine project configuration
 ├── ElectrodeFiles/           # MEA electrode layout & pinout files
+├── GUI_ClosedLoop.mp4        # Real-time closed-loop GUI demonstration video
 └── McsUsbNet.dll             # MCS Hardware C# .NET API assembly
 ```
 
