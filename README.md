@@ -9,7 +9,7 @@ This repository contains the code supporting the manuscript:
 > (*) Correspondence to: eduardoc@i3s.up.pt, pauloaguiar@i3s.up.pt
 > 
 > **Preprint:** https://doi.org/10.64898/2026.07.13.738298  
-> **Raw Data (Zenodo):** [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX) *(Zenodo Link Placeholder)*
+> **Raw Data (Zenodo):** [https://doi.org/10.5281/zenodo.21891175](https://doi.org/10.5281/zenodo.21891175)
 
 ---
 ## Highlights: Video Demonstration & Runnable Examples
@@ -75,7 +75,7 @@ A C# application for real-time closed-loop control of the **MCS (Multi Channel S
 
 ## 📊 Data Availability & Open Science
 
-* **Raw Data (Zenodo):** All raw experimental and simulation datasets are archived on Zenodo: `[https://doi.org/10.5281/zenodo.XXXXXXX]` *(Zenodo DOI link placeholder)*.
+* **Raw Data (Zenodo):** All raw experimental and simulation datasets are archived on Zenodo: [https://doi.org/10.5281/zenodo.21891175](https://doi.org/10.5281/zenodo.21891175)
 * **Source Code:** Following peer-review, all software tools and updates will be publicly maintained on the NCN Lab GitHub: [https://github.com/NCN-Lab](https://github.com/NCN-Lab).
 * In accordance with NCN Lab practice, **all data, computational models, and code are open and adhere to FAIR data principles**.
 
@@ -84,5 +84,5 @@ A C# application for real-time closed-loop control of the **MCS (Multi Channel S
 ## 📧 Support & Contact
 
 For questions or assistance regarding software installation, setup, or running example code:
-* **NCN Lab**: [pauloaguiar@i3s.up.pt](mailto:pauloaguiar@i3s.up.pt) | [eduardoc@i3s.up.pt](mailto:eduardoc@i3s.up.pt)
+* **NCN Lab**: [eduardoc@i3s.up.pt](mailto:eduardoc@i3s.up.pt) | [pauloaguiar@i3s.up.pt](mailto:pauloaguiar@i3s.up.pt)
 
