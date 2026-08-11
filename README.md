@@ -13,7 +13,7 @@ This repository contains the code supporting the manuscript:
 
 ---
 ## Highlights: Video Demonstration & Runnable Examples
-* **Closed-Loop Demo Video:** A video recording demonstrating the C# desktop application in action during real-time closed-loop hardware control (showing live signal plotting, artifact suppression, online spike detection, and dynamic stimulation feedback) is available at:
+* **Closed-Loop Demo Video:** A video recording demonstrating the C# desktop application in action during real-time closed-loop hardware control (showing live signal plotting, artifact suppression, online spike detection) is available at:
   👉 **[MEA_ClosedLoop_Control_C#/GUI_ClosedLoop.mp4](./MEA_ClosedLoop_Control_C%23/GUI_ClosedLoop.mp4)**
 * **Python Simulation Examples:** Ready-to-run Python examples (execution time of a few minutes) for simulating hippocampal neuronal networks and evaluating pre-trained DRL agents are provided in:
   👉 **[NEURON_SimEnv_Python/examples/](./NEURON_SimEnv_Python/examples)**  
